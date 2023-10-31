@@ -198,7 +198,7 @@
   .sidebar ul li .bx-search{
     position: absolute;
     z-index: 99;
-    color: blue;
+    color: #0000ff;
     font-size: 18px;
     transition: all 0.5s ease;
   }
@@ -264,7 +264,7 @@
   }
   
   .sidebar.active .profile-content .profile {
-    background: var(--color-grey-6);
+    background: var(--color-primary);
   }
   .sidebar.active .profile-content .profile .bx{
     color: var(--color-white);
@@ -350,4 +350,18 @@
   
   .cursor-pointer {
     cursor: pointer;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso faz com que a imagem ocupe toda a altura da tela */
+    border-radius: 10px;
+  }
+
+  .img img {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 20px;
   }
